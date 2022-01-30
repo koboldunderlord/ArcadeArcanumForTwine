@@ -11,7 +11,9 @@ Please refer to global.js for details about how to use the core methods.
 
 An example is provided with instructions on a way to use the library.
 
-Licensing: Any usage of this library must attribute usage back to this repository and author, and must follow any licensing restrictions per the Arcade Arcanum project.
+## Licensing
+
+Any usage of this library must attribute usage back to this repository and author, and must follow any licensing restrictions per the Arcade Arcanum project.  It's ok to use this in commercial projects as long as you attribute it back to me!
 
 Example attribution:
 
