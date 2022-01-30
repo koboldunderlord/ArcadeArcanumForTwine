@@ -9,7 +9,7 @@ This was built to be used with Snowman 2 in Twine.
 
 Please refer to global.js for details about how to use the core methods.
 
-An example is provided with instructions on a way to use the library.  You can run it directly from your browser to see it in action, and you can also import it directly into Twine to see how it works!
+An example is provided with instructions on a way to use the library.  You can [run it directly from your browser to see it in action](https://htmlpreview.github.io/?https://github.com/vahnj/ArcadeArcanumForTwine/blob/main/Example%20with%20Fade-In.html), and you can also import it directly into Twine to see how it works!
 
 ## Licensing
 
