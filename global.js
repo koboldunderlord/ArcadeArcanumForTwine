@@ -602,7 +602,7 @@ window.tarot.getImageBlockWithStyleClassAndId = function(card, style = {}, cls =
 window.tarot.createStyleMap = function(sizeMultiplier, sizeXMultiplier = 1, sizeYMultiplier = 1) {
     return {
         "width": 34 * sizeMultiplier * sizeXMultiplier + "px",
-        "height": 34 * sizeMultiplier * sizeYMultiplier + "px"
+        "height": 58 * sizeMultiplier * sizeYMultiplier + "px"
     };
 }
 
