@@ -597,6 +597,15 @@ window.tarot.getImageBlockWithStyleClassAndId = function(card, style = {}, cls =
     return img.prop('outerHTML');
 }
 
+// Style helpers
+
+window.tarot.createStyleMap = function(sizeMultiplier, sizeXMultiplier = 1, sizeYMultiplier = 1) {
+    return {
+        "width": 34 * sizeMultiplier * sizeXMultiplier,
+        "height": 34 * sizeMultiplier * sizeYMultiplier
+    };
+}
+
 /****************************
      Major Arcana helpers
 *****************************/
