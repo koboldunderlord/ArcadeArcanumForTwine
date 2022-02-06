@@ -577,11 +577,14 @@ window.tarot.getImageBlockWithClassAndId = function(card, cls, id) {
 }
 
 window.tarot.getImageBlockWithStyleClassAndId = function(card, style = {}, cls = '', id = '') {
-    // Accepts both filename and card name
-    var cardData = window.tarot.tarotData[card] || window.tarot.nameToCard[card];
+    // Accepts selection criteria in the following order:
+    // 1. Filename
+    // 2. Card name
+    // 3. Index of entry in tarotData
+    let cardData = window.tarot.tarotData[card] || window.tarot.nameToCard[card] || window.tarot.tarotData[Object.keys(window.tarot.tarotData)[card]];
 
     // Prep block data
-    var img = $("<img>");
+    let img = $("<img>");
     img.css(style);
     if (cls) {
         img.addClass(cls);
